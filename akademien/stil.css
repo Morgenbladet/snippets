@@ -39,4 +39,10 @@
 #persongalleri .slick-prev {
     left: 5px;
 }
+@media only screen and (max-width: 480px) {
+    #persongalleri p.stol {
+	float: none;
+	margin: auto auto;
+    }
+}
     
