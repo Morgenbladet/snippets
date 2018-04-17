@@ -1,20 +1,21 @@
 #persongalleri {
     background-color: rgba(251, 186, 0, 0.1);
     border: 2px solid rgba(251, 186, 0, 1.0);
-    padding: 1em;
+    padding: 2em;
     box-shadow: 2px 2px 5px black;
 }
 
 #persongalleri p.stol {
     margin: 0;
-    padding-top: 26px;
+    padding-top: 35px;
     background-image: url('0420akademia.png');
     background-size: 100%;
+    background-repeat: no-repeat;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
     width: 150px;
-    height: 171px;
+    height: 165px;
     position: relative;
     top: 0;
     left: 0;
@@ -27,3 +28,15 @@
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
+#persongalleri .slick-next, #persongalleri .slick-prev {
+    position: absolute;
+    top: 140px;
+}
+#persongalleri .slick-next {
+    right: 5px;
+}
+#persongalleri .slick-prev {
+    left: 5px;
+}
+    
