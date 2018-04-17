@@ -27,7 +27,7 @@ jQuery(document).ready(function ($) {
     },
     {
       "stol": 6,
-      "navn": "Tomas Raid",
+      "navn": "Tomas Riad",
       "beskrivelse": "1959. Språkforsker. Innvalgt i 2011. Har holdt en lav profil i skandalen, men tilhørte majoriteten som stemte imot utestengelse av Katarina Frostenson.\n"
     },
     {
